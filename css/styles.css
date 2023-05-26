@@ -258,6 +258,7 @@ img {
   background-repeat: no-repeat;
   background-position:center;
   background-size: cover;
+  max-width: 1440px
 }
 .hero-container {
 }
@@ -280,6 +281,7 @@ img {
 .section-principles {
   padding-top: 120px;
   padding-bottom: 120px;
+
 }
 .principles-container {
   display: flex;
