@@ -435,3 +435,21 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/**----------------index html Customers--------------**/
+
+.section-Customers {
+}
+
+.box-Customers {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+}
+
+.Customers {
+}
