@@ -439,9 +439,14 @@ img {
 /**----------------index html Customers--------------**/
 
 .section-Customers {
+  padding-top: 120px;
 }
 
 .box-Customers {
+
+}
+
+.Customers {
   font-weight: 700;
   font-size: 36px;
   line-height: 1,11;
@@ -449,7 +454,4 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
-}
-
-.Customers {
 }
