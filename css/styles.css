@@ -258,7 +258,7 @@ img {
   background-repeat: no-repeat;
   background-position:center;
   background-size: cover;
-  max-width: 1440px
+  max-width: 1440px;
 }
 .hero-container {
 }
@@ -277,6 +277,17 @@ img {
 }
 
 /**-----------OUR PRINCIPLES AND PRIORITIES-----------*/
+
+.program-logo{
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .section-principles {
   padding-top: 120px;
@@ -438,23 +449,58 @@ img {
 
 /**----------------index html Customers--------------**/
 
-.section-Customers {
+.section-customers {
   display: flex;
   padding-top: 120px;
-  margin-bottom: 72px
-}
-
-.box-Customers {
-
+  margin-bottom: 120px
 
 }
 
-.Customers {
+.box-customers {
+
+}
+
+.customers {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
+ margin: 0 auto 72px;
+}   
+
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+}
+
+.customers-list { 
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-icon {
+fill: currentColor;
+
+}
+
+.customers-link{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8E8F99;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+color:#8E8F99 ;
+}
+.customers-link:hover,.customers-link:focus{
+border-color:#404BBF
+;
+color: #404BBF
+;
 }
