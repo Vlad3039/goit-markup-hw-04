@@ -439,10 +439,13 @@ img {
 /**----------------index html Customers--------------**/
 
 .section-Customers {
+  display: flex;
   padding-top: 120px;
+  margin-bottom: 72px
 }
 
 .box-Customers {
+
 
 }
 
