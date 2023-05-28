@@ -540,10 +540,8 @@ background-color: #404bbf;
 /**----------------index html Customers--------------**/
 
 .section-customers {
-
   padding-top: 120px;
-  margin-bottom: 120px
-
+  padding-bottom: 120px;
 }
 
 .box-customers {
