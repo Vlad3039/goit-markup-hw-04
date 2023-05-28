@@ -86,8 +86,7 @@ img {
   color: var(--first-main-color);
   background: var(--white-color);
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+ 
   border-radius: 4px;
   border: 1px solid var(--color-btn-white);
 
@@ -98,6 +97,8 @@ img {
   color: #ffffff;
   background: var(--second-main-color);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -224,7 +225,15 @@ img {
 
   background: var(--title-color);
 }
+
+.container-foot{
+  display: flex;
+  align-items: baseline;
+  
+}
+
 .footer-container {
+  margin-right: 120px;
 }
 .footer-logo-first {
   display: inline-block;
@@ -243,6 +252,35 @@ img {
   line-height: var(--tipical-line-height);
   letter-spacing: 0.02em;
   color: var(--white-color);
+}
+
+.soc-coteiner{
+  width: 208px;
+
+}
+
+.social-media{
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.tim-logo-link {
+  width: 100%;
+  height: 100%;
+  background-color:#4D5AE5 ;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+align-items: center;
+}
+
+.tim-logo-link:hover,
+.tim-logo-link:focus{
+background-color: #31D0AA;
 }
 
 /**------------------HERO------------------*/
@@ -389,6 +427,38 @@ img {
   letter-spacing: 0.02em;
 }
 
+.tim-list-logo {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.tim-logo {
+width: 40px;
+height: 40px;
+
+}
+.tim-logo-href {
+  width: 100%;
+  height: 100%;
+  background-color:#4D5AE5 ;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+align-items: center;
+}
+
+.tim-logo-href:hover,
+.tim-logo-href:focus{
+background-color: #404bbf;
+}
+
+.tim-logo {
+}
+.tim-logo-href {
+}
+.logo-eikon {
+  fill: #F4F4FD;
+}
 /**-----------------MENU BUTTON-----------------*/
 
 .section-portfoloi {
@@ -423,10 +493,19 @@ img {
 }
 .gallery-item {
   width: calc((100% - 48px) / 3);
-  border: 1px solid var(--color-btn-white);
+
 }
 .gallery-link {
+  display: block;
 }
+
+.gallery-link:hover,
+ .gallery-link:focus
+{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+   0px 1px 1px rgba(46, 47, 66, 0.16), 
+   0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .container-gallery {
   padding: 32px 16px;
   border: 1px solid var(--color-btn-white);
@@ -450,7 +529,7 @@ img {
 /**----------------index html Customers--------------**/
 
 .section-customers {
-  display: flex;
+
   padding-top: 120px;
   margin-bottom: 120px
 
@@ -504,3 +583,4 @@ border-color:#404BBF
 color: #404BBF
 ;
 }
+
